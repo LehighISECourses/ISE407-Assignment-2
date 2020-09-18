@@ -11,12 +11,14 @@
     these data structures. In a future assignment, you will be asked to
     build on what you do here and empirically test matrix multiplication
     methods using your data structures. 
-    1. Implement **and document** a sparse matrix data structures in Julia. You should 
+    1. Implement **and document** a sparse matrix data structure in Julia. You should 
        support both CSC and CSR formats (you can research what these stand for 
        and how they work). You should include methods for converting to/from
        dense matrices by implementing the `copyto()` method. You should also support
-       in-place convertion back and forth between CSC and CSR, as well as computing the
-       transpose. 
+       in-place convertion t/from CSC and CSR, as well as computing the
+       transpose. Implement a series of tests to demonstrate your implementation is
+       working as expected (generate random matrices, convert in different ways, 
+       ensure the results are the same, etc.)
     1. Do a theoretical comparison of the efficiency with which such a sparse matrix 
        can be initialized with random elements versus that with which a dense matrix 
        can be initialized. Derive the appropriate running time functions under the 
